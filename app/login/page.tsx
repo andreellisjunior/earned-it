@@ -45,6 +45,7 @@ export default function Login({
     });
 
     if (error) {
+      // this is a testing comment
       return redirect("/login?message=Could not authenticate user");
     }
 
